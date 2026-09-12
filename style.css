@@ -11,13 +11,13 @@ body {
     flex-direction: column;
 
     background: #f4f4f4;
-    color: #222;
+    color: #222222;
 }
 
 header {
     padding: 1.25rem;
     text-align: center;
-    background: #222;
+    background: #222222;
     color: white;
 }
 
@@ -45,20 +45,24 @@ input,
 select,
 button {
     padding: 0.7rem;
-    border: 0px solid #ccc;
+    border: 1px solid #ccc;
     border-radius: 6px;
     font: inherit;
 }
 
+select {
+    cursor: pointer;
+}
+
 button {
     border: none;
-    background: #222;
+    background: #222222;
     color: white;
     cursor: pointer;
 }
 
 button:hover {
-    background: #444;
+    background: #444444;
 }
 
 #tsk-list {
@@ -93,7 +97,7 @@ button:hover {
     padding: 0.25rem 0.5rem;
     border-radius: 999px;
 
-    background: #eee;
+    background: #ffffff;
     font-size: 0.85rem;
 }
 
@@ -124,12 +128,12 @@ button:hover {
 }
 
 .tsk-delete-btn {
-    background: rgb(156, 18, 32);
+    background: rgb(90, 11, 19);
     color: rgb(255, 255, 255);
 }
 
 .tsk-delete-btn:hover {
-    background: #222;
+    background: #222222;
 }
 
 footer {
