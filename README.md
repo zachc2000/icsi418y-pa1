@@ -2,8 +2,6 @@
 Version 1.0
 Zachary Casso
 
-
-
 ## Description
 TaskMaster is a simple client-side web application for managing tasks. Users can add a task, choose a Low, Medium, or High priority, mark tasks as completed, and delete tasks.
 
