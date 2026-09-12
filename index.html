@@ -7,14 +7,18 @@
 
 <body>
 <header>
-<h1>Welcome to TaskMaster 1.0</h1>
+<h1>TaskMaster! 1.0</h1>
+<input id="tsk-import-select" type="file" accept="application/json" hidden>
+<button id="tsk-import">Import</button>
+<button id="tsk-export">Export</button>
+<button id="tsk-clear">Clear</button>
 </header>
 
 <main>
     <form id="tsk-add-form">
         <h2>Add Task</h2>
-        <input id="tsk-name-in" type="text">
-        <select id="tsk-priority-in">
+        <input id="tsk-name-in" type="text" required>
+        <select id="tsk-priority-in" required>
             <option value="low">Low</option>
             <option value="medium">Medium</option>
             <option value="high">High</option>
